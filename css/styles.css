@@ -30,20 +30,6 @@ p {
   margin-top: 0;
 }
 
-/* заголовок прихов. */
-
-/* position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;  */
-
 /* студия посилання */
 .studio-link {
   font-family: 'Raleway', sans-serif;
@@ -97,6 +83,18 @@ p {
 
 .adress {
   font-style: normal;
+}
+
+.contact-info-mail {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.contact-info-mail:focus {
+  color: #404bbf;
+}
+.contact-info-mail:hover {
+  color: #404bbf;
 }
 
 /* ----------------Hero --------------------------- */

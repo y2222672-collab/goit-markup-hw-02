@@ -1,3 +1,30 @@
+body {
+font-family: "Roboto", sans-serif;
+color:#2e2f42;
+}
+
+ol, ul {
+  list-style-type: none ;
+}
+
+a {
+
+  text-decoration: none; 
+  color: inherit
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin-bottom: 0;
+margin-top: 0;
+}
+
+/* заголовок прихов. */
 .is-hidden {
   position: absolute;
   width: 1px;
@@ -10,4 +37,160 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+/* студия посилання */
+.studio-link {
+  font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+/* блок навигации */
+.navigation {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.navigation:hover {
+   color: #007bff;
+}
+.navigation:focus{
+   color: #0056b3;
+}
+.contacts {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;}
+
+
+.contact-info:hover {
+ color: #007bff;
+  
+}
+ 
+
+.contact-info:focus {
+  color: #0056b3;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+/* ----------------Hero --------------------------- */
+.hero-class {
+background: #2e2f42;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
+
+
+.button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+ 
+/* -----------------Features ----------------*/
+.features-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.features-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Workes */
+
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+
+/* ============Portfolio===== */
+.portfolio-banner {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.portfolio-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Footer */
+
+.footer-p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
